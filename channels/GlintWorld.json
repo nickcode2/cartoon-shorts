@@ -1,0 +1,23 @@
+{
+  "name": "GlintWorld",
+  "mood": "same structure as GlintGaze (bright day, one warm key), different dominant: petrol blue with amber",
+  "palette": {
+    "dominant": ["#0F4C5C", "#F2A541", "#FFF1D6"],
+    "accent": ["#E2566B"],
+    "set": ["#0F4C5C", "#1B6B7C", "#F2A541", "#FFF1D6", "#E2566B", "#3F8FA0", "#C98A2E", "#7FB8C4"],
+    "wood": ["#6B3F22", "#5A3A22"],
+    "skyTop": "#3F8FA0", "skyBottom": "#FFF1D6", "clear": "#FFF1D6",
+    "ink": "#231A28", "inkCards": "#120A14"
+  },
+  "light": {
+    "hemisphere": {"sky": "#FFF1D6", "ground": "#5A6B6E", "intensity": 2.2},
+    "key": {"color": "#FFD9A0", "intensity": 1.7, "position": [-6, 9, 5]},
+    "rim": {"color": "#E2566B", "side": "one"},
+    "fill": null,
+    "lampGlow": [3.3, 2.8, 2.0]
+  },
+  "fog": null,
+  "haze": null,
+  "grade": {"bloom": 0.55, "bloomThreshold": 1.0, "saturation": 0.1, "contrast": 0.07, "brightness": 0.0, "vignetteOffset": 0.32, "vignetteDarkness": 0.42},
+  "characters": {"skin": "#FFFFFF", "rule": "pure white cards, never tinted by the channel"}
+}

@@ -1,0 +1,267 @@
+{
+ "fps": 30,
+ "frames": 2400,
+ "videoSec": 80.0,
+ "narrationTrimStart": 1.893,
+ "firstWord": 0.4,
+ "note": "Seconds of the TRIMMED narration (original minus cut). Phrase starts = end of the silence before them (ffmpeg silencedetect); word times inside phrases from faster-whisper small (en).",
+ "cuts": [
+  {
+   "id": "1",
+   "f": 0,
+   "line": "A man falls off a cruise ship."
+  },
+  {
+   "id": "2",
+   "f": 72,
+   "line": "At night."
+  },
+  {
+   "id": "3",
+   "f": 103,
+   "line": "Nobody sees it."
+  },
+  {
+   "id": "4",
+   "f": 147,
+   "line": "He hits the water, and the ship keeps sailing."
+  },
+  {
+   "id": "5",
+   "f": 245,
+   "line": "Wait, what? Nobody noticed?"
+  },
+  {
+   "id": "6",
+   "f": 331,
+   "line": "You see, he'd only been on board for a day."
+  },
+  {
+   "id": "7a",
+   "f": 419,
+   "line": "Minutes earlier, he'd won an air..."
+  },
+  {
+   "id": "7b",
+   "f": 468,
+   "line": "...guitar contest with his sister."
+  },
+  {
+   "id": "8",
+   "f": 529,
+   "line": "Then he went to the bathroom. And that's the last thing he remembers."
+  },
+  {
+   "id": "9",
+   "f": 663,
+   "line": "He wakes up alone in the dark water."
+  },
+  {
+   "id": "10a",
+   "f": 740,
+   "line": "No boat,"
+  },
+  {
+   "id": "10b",
+   "f": 771,
+   "line": "no lights,"
+  },
+  {
+   "id": "10c",
+   "f": 806,
+   "line": "nothing."
+  },
+  {
+   "id": "11",
+   "f": 837,
+   "line": "So, he treads water."
+  },
+  {
+   "id": "12a",
+   "f": 896,
+   "line": "Jellyfish drift by, glowing in the dark,"
+  },
+  {
+   "id": "12b",
+   "f": 978,
+   "line": "their tentacles brushing his legs."
+  },
+  {
+   "id": "13a",
+   "f": 1047,
+   "line": "A strong current drags him..."
+  },
+  {
+   "id": "13b",
+   "f": 1100,
+   "line": "...farther and farther from the ship,"
+  },
+  {
+   "id": "14a",
+   "f": 1157,
+   "line": "and every shadow in the water..."
+  },
+  {
+   "id": "14b",
+   "f": 1209,
+   "line": "...could be a shark."
+  },
+  {
+   "id": "15",
+   "f": 1256,
+   "line": "Now imagine something even bigger,"
+  },
+  {
+   "id": "16",
+   "f": 1324,
+   "line": "something enormous sliding silently..."
+  },
+  {
+   "id": "17",
+   "f": 1380,
+   "line": "...far below him."
+  },
+  {
+   "id": "18",
+   "f": 1442,
+   "line": "Dark. Massive. Gone."
+  },
+  {
+   "id": "19",
+   "f": 1541,
+   "line": "The sun comes up, and he's still swimming."
+  },
+  {
+   "id": "20a",
+   "f": 1626,
+   "line": "Back on the ship,"
+  },
+  {
+   "id": "20b",
+   "f": 1689,
+   "line": "his sister realizes he never came back."
+  },
+  {
+   "id": "21",
+   "f": 1737,
+   "line": "The ship turns around and retraces its route,"
+  },
+  {
+   "id": "22",
+   "f": 1821,
+   "line": "but one person in a huge ocean is just a tiny dot."
+  },
+  {
+   "id": "23a",
+   "f": 1941,
+   "line": "Almost 20 hours later,"
+  },
+  {
+   "id": "23b",
+   "f": 1990,
+   "line": "a cargo ship crew spots"
+  },
+  {
+   "id": "23c",
+   "f": 2026,
+   "line": "a person,"
+  },
+  {
+   "id": "24",
+   "f": 2058,
+   "line": "still alive."
+  },
+  {
+   "id": "25",
+   "f": 2100,
+   "line": "A helicopter lowers a rescuer"
+  },
+  {
+   "id": "26",
+   "f": 2158,
+   "line": "and pulls him out."
+  },
+  {
+   "id": "27",
+   "f": 2197,
+   "line": "The guy who vanished after winning an air guitar contest"
+  },
+  {
+   "id": "28a",
+   "f": 2289,
+   "line": "survived almost a day alone"
+  },
+  {
+   "id": "28b",
+   "f": 2352,
+   "line": "in the Gulf of Mexico."
+  }
+ ],
+ "sentences": [
+  {
+   "t": "1, 2, 3, testing. A man falls off a cruise ship. At night, nobody sees it. He hits the water,",
+   "a": -1.893,
+   "b": 5.607
+  },
+  {
+   "t": "and the ship keeps sailing. Wait, what? Nobody noticed? You see, he'd only been on board for a",
+   "a": 6.047,
+   "b": 12.987
+  },
+  {
+   "t": "day. Minutes earlier, he'd won an air guitar contest with his sister. Then he went to the",
+   "a": 12.987,
+   "b": 18.547
+  },
+  {
+   "t": "bathroom. And that's the last thing he remembers. He wakes up alone in the dark water. No boat,",
+   "a": 18.547,
+   "b": 25.127
+  },
+  {
+   "t": "no lights, nothing. So, he treads water. Jellyfish drift by, glowing in the dark,",
+   "a": 25.127,
+   "b": 32.127
+  },
+  {
+   "t": "their tentacles brushing his legs. A strong current drags him farther and farther from",
+   "a": 32.567,
+   "b": 37.587
+  },
+  {
+   "t": "the ship, and every shadow in the water could be a shark. Now imagine something even bigger,",
+   "a": 37.587,
+   "b": 43.587
+  },
+  {
+   "t": "something enormous sliding silently far below him. Dark, massive, gone. The sun comes up,",
+   "a": 44.127,
+   "b": 52.187
+  },
+  {
+   "t": "and he's still swimming. Back on the ship, his sister realizes he never came back. The ship turns",
+   "a": 52.187,
+   "b": 58.447
+  },
+  {
+   "t": "around and retraces its route, but one person in a huge ocean is just a tiny dot. Almost 20",
+   "a": 58.447,
+   "b": 65.347
+  },
+  {
+   "t": "hours later, a cargo ship crew spots a person, still alive. A helicopter lowers a rescuer",
+   "a": 65.347,
+   "b": 71.527
+  },
+  {
+   "t": "and pulls him out. The guy who vanished after winning an air guitar contest",
+   "a": 71.527,
+   "b": 75.907
+  },
+  {
+   "t": "survived almost a day alone in the Gulf of Mexico.",
+   "a": 75.907,
+   "b": 79.087
+  }
+ ]
+}

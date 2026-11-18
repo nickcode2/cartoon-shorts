@@ -1,0 +1,95 @@
+{
+  "name": "FocoProibido_v1",
+  "mood": "dark, moody dusk / night. Deep purple + sunset orange, indigo base, purple shadows (never black), purple distance haze, soft glow, floating dust, few warm light sources",
+  "ratio": "about 70 % purple / indigo, 20 % orange / gold, 10 % other",
+  "palette": {
+    "dominant": [
+      "#4A2B8F",
+      "#6C42B8",
+      "#F28A3C"
+    ],
+    "base": [
+      "#14123A",
+      "#1E1A52",
+      "#2B2368"
+    ],
+    "secondary": {
+      "gold": "#F7C65A",
+      "coral": "#E2566B",
+      "lavender": "#C9C4EE",
+      "cream": "#FFF1D6"
+    },
+    "danger": "#E0243C",
+    "dangerUse": "zombie eyes and alerts only",
+    "secondaryUse": "small doses: gold = windows, lamps, the tower; coral = rim light; lavender = moon, haze; cream = warm light",
+    "skyTop": "#14123A",
+    "skyMid": "#4A2B8F",
+    "skyHorizon": "#F28A3C",
+    "clear": "#1E1A52",
+    "ink": "#120A14",
+    "inkCards": "#120A14"
+  },
+  "light": {
+    "hemisphere": {
+      "sky": "#6C42B8",
+      "ground": "#2B2368",
+      "intensity": 1.5
+    },
+    "key": {
+      "color": "#F28A3C",
+      "intensity": 1.5,
+      "position": [
+        -7,
+        4,
+        5
+      ],
+      "note": "low warm key, sunset side"
+    },
+    "rim": {
+      "color": "#F28A3C",
+      "side": "left",
+      "note": "white characters get a warm orange rim from ONE side"
+    },
+    "fill": {
+      "color": "#6C42B8",
+      "side": "right",
+      "intensity": 0.9,
+      "note": "purple fill from the other side"
+    },
+    "coralRim": "#E2566B",
+    "lampGlow": [
+      3.4,
+      2.7,
+      1.4
+    ]
+  },
+  "fog": {
+    "color": "#2B2368",
+    "near": 18,
+    "far": 150,
+    "note": "purple distance haze"
+  },
+  "haze": {
+    "color": "#C9C4EE",
+    "opacity": 0.1
+  },
+  "dust": {
+    "count": 120,
+    "color": "#F7C65A",
+    "opacity": 0.45
+  },
+  "grade": {
+    "bloom": 0.85,
+    "bloomThreshold": 1.0,
+    "saturation": -0.12,
+    "contrast": 0.1,
+    "brightness": -0.02,
+    "vignetteOffset": 0.28,
+    "vignetteDarkness": 0.6
+  },
+  "characters": {
+    "skin": "#FFFFFF",
+    "rule": "pure white cards, never tinted by the channel; only the rim (orange one side) and the fill (purple other side) change"
+  },
+  "note": "FROZEN copy of the original FocoProibido profile (before KIT RULES v9, 2026-11-17). Used only by ZUMBIS_PARTE_10 (src/foco/common.ts) so that video stays identical, and as the brightness baseline. Do not use for new videos: load FocoProibido."
+}

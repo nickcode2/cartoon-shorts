@@ -1,0 +1,18 @@
+// OVERBOARD_SURVIVOR cast on the kit character system: white cards, different clothes, 3D hats / hair on the head pivot, 2D face props. Women use the original body shapes only (index 0, 1).
+// Principals: survivor (young man), sister, crew (cruise officer), cruiser (oblivious passenger), 3 sailors, rescuer (Coast Guard). Crowds: makeCrowd (seeded, mixed ages / genders / headwear).
+import {registerRole} from '../kit/person';
+import {makeCrowd, CrowdMember} from '../kit/crowd';
+export {Person, KIND, dirTo, poseOf, handPos, headPos, scaleOf, SPECS} from '../kit/person';
+const D = '#3A2A22', BR = '#5A3A22';
+registerRole('survivor', {head: [1, false, 1.0], body: [2, false, 1.0], ry: 116, persona: 'm', age: 'adult', scale: 1, style: 'sweater', top: '#E0302A', accent: '#F6E8C8', bottom: '#2F3B57', gear: {}});
+registerRole('sister', {head: [4, false, 0.9], body: [0, true, 1.0], ry: 106, persona: 'f', age: 'adult', scale: 1, style: 'blouse', top: '#3FA7C9', accent: '#F6E8C8', bottom: '#2F3B57', facial: {earrings: '#E8B23A'}, gear: {hair: {kind: 'ponytail', color: '#7A4A2A', hi: '#B07A3C'}, headband: '#E8B23A'}});
+registerRole('crew', {head: [3, true, 1.0], body: [1, false, 1.0], ry: 116, persona: 'm', age: 'adult', scale: 1, style: 'suit', top: '#F4EFE0', accent: '#E8B23A', bottom: '#1F3A5F', gear: {hair: {kind: 'short', color: D}, hat: {kind: 'cap', color: '#F4EFE0', band: '#1F3A5F', trim: 'button', trimColor: '#E8B23A'}}});
+registerRole('cruiser', {head: [6, true, 1.0], body: [4, false, 1.1], ry: 118, persona: 'm', age: 'adult', scale: 1, style: 'vest', top: '#F2C230', accent: '#2FA7A0', bottom: '#4A4036', facial: {mustache: {kind: 'handlebar', color: '#2B1D1A'}}, gear: {hair: {kind: 'short', color: BR}, hat: {kind: 'boater', color: '#F2D08A', band: '#E0302A'}}});
+registerRole('sailor1', {head: [5, false, 1.0], body: [3, false, 1.05], ry: 116, persona: 'm', age: 'adult', scale: 1, style: 'stripes', top: '#2F7FD0', accent: '#FFFFFF', bottom: '#2F3B57', facial: {beard: {kind: 'full', color: '#1E1A1A'}}, gear: {hair: {kind: 'short', color: '#1E1A1A'}, hat: {kind: 'beanie', color: '#E0302A', band: '#F6E8C8'}}});
+registerRole('sailor2', {head: [0, true, 1.05], body: [2, true, 1.1], ry: 120, persona: 'm', age: 'adult', scale: 1, style: 'stripes', top: '#F08A24', accent: '#FFFFFF', bottom: '#3A3F55', gear: {hair: {kind: 'curls', color: BR, hi: '#8A5A3A'}, hat: {kind: 'flatcap', color: '#4A4036', band: '#2B2630', trim: 'button'}}});
+registerRole('sailor3', {head: [2, false, 0.95], body: [4, true, 1.0], ry: 112, persona: 'm', age: 'adult', scale: 1, style: 'stripes', top: '#35B36B', accent: '#FFFFFF', bottom: '#2F3B57', facial: {glasses: {kind: 'round', color: '#3A2A22'}}, gear: {hair: {kind: 'messy', color: '#A04A22'}, hat: {kind: 'cap', color: '#F2C230', band: '#B8860B', trim: 'button', trimColor: '#B8860B'}}});
+registerRole('rescuer', {head: [5, true, 0.95], body: [3, true, 1.05], ry: 114, persona: 'm', age: 'adult', scale: 1, style: 'suit', top: '#E8601C', accent: '#F6E8C8', bottom: '#E8601C', gear: {hair: {kind: 'short', color: D}, hat: {kind: 'cap', color: '#F6F2E6', band: '#E0302A', trim: 'buckle', trimColor: '#E0302A'}}});
+// seeded crowds (mixed ages and genders; no two neighbours share headwear or silhouette)
+export const DECK: CrowdMember[] = makeCrowd({n: 8, seed: 41, prefix: 'dk', mix: {child: 0.2, elder: 0.25, female: 0.5}, force: {1: {age: 'elder', female: true}, 2: {age: 'child'}, 5: {age: 'adult', female: true}}});
+export const STAGE: CrowdMember[] = makeCrowd({n: 8, seed: 77, prefix: 'sg', mix: {child: 0.15, elder: 0.2, female: 0.5}, force: {1: {age: 'child'}, 4: {age: 'elder', female: false}}});
+export const ROLE = (list: CrowdMember[], i: number) => list[i % list.length].role;

@@ -1,0 +1,42 @@
+{
+  "name": "FocoProibido",
+  "version": "2 (2026-11-17, KIT RULES v9: at least 30 % brighter than v1, which is frozen in FocoProibido_v1.json)",
+  "mood": "dusk, NOT night. Clearly readable. Deep purple + sunset orange, lighter purple mid-tones, indigo base lifted, purple shadows (never black), purple distance haze, soft glow, floating dust, MANY lit windows, strong warm light sources and rim lights",
+  "ratio": "about 70 % purple / indigo, 20 % orange / gold, 10 % other",
+  "palette": {
+    "dominant": ["#6A45C2", "#8C63DA", "#F6954A"],
+    "base": ["#2A2672", "#3B3590", "#4C3FA8"],
+    "secondary": {"gold": "#FFD070", "coral": "#F0647A", "lavender": "#D6D0F4", "cream": "#FFF4DC"},
+    "danger": "#E0243C",
+    "dangerUse": "zombie eyes and alerts only",
+    "secondaryUse": "small doses: gold = windows, lamps, the tower; coral = rim light; lavender = moon, haze; cream = warm light",
+    "skyTop": "#2A2672", "skyMid": "#6A45C2", "skyHorizon": "#FFA24F", "clear": "#3B3590",
+    "ink": "#120A14", "inkCards": "#120A14"
+  },
+  "derived": {
+    "note": "value steps INSIDE the palette family for walls, asphalt, shadows, trim (the v1 values were deep #0F0D2E, wall1 #231D5C, wall2 #2B2368, wall3 #33297A, trim #4A2B8F, road #1B1748, road2 #241E5A, slab #32286F, orangeD #B2561E, goldD #B58A2E)",
+    "deep": "#241E66", "wall1": "#4A3FA8", "wall2": "#5A4DBA", "wall3": "#6A5ACC", "trim": "#7A55D6", "road": "#3C3592", "road2": "#4A42A6", "slab": "#5A4EB4", "orangeD": "#E07A34", "goldD": "#DDAE44",
+    "shadow": "#4A3C9E", "shadowRule": "shadows are this purple (or darker steps of it that stay above luminance 0.08), never black or grey"
+  },
+  "light": {
+    "hemisphere": {"sky": "#9078E0", "ground": "#4C3FA8", "intensity": 2.1},
+    "key": {"color": "#FFA050", "intensity": 2.2, "position": [-7, 4, 5], "note": "low warm key, sunset side, stronger than v1"},
+    "rim": {"color": "#FF9A4A", "side": "left", "intensity": 2.4, "note": "white characters get a strong warm orange rim from ONE side; also rim the buildings and props that face the key"},
+    "fill": {"color": "#8C63DA", "side": "right", "intensity": 1.3, "note": "lighter purple fill from the other side"},
+    "coralRim": "#F0647A",
+    "lampGlow": [4.2, 3.3, 1.7],
+    "windows": {"litShare": 0.6, "note": "at least 60 % of the windows lit (v1 about a quarter), gold #FFD070 and cream, a few orange; every building face toward the camera has lit windows"},
+    "warmSources": {"minPerShot": 3, "note": "at least 3 visible warm sources per shot (lamps, windows, fires, sun on the horizon), each with a Glow sprite and a floor light pool"}
+  },
+  "fog": {"color": "#4C3FA8", "near": 24, "far": 170, "note": "purple distance haze, lighter and thinner than v1"},
+  "haze": {"color": "#D6D0F4", "opacity": 0.14},
+  "dust": {"count": 120, "color": "#FFD070", "opacity": 0.5},
+  "grade": {"bloom": 0.95, "bloomThreshold": 1.0, "saturation": -0.08, "contrast": 0.06, "brightness": 0.06, "vignetteOffset": 0.4, "vignetteDarkness": 0.35},
+  "brightness": {
+    "baselineLum": 0.17,
+    "minFactor": 1.3,
+    "nearBlackMax": 0.05,
+    "note": "baselineLum = mean frame luminance of the v1 profile, taken from the ZUMBIS_PARTE_10 QA sheets (0.12 to 0.22, midpoint 0.17; NOT re-measured). Every shot of a new FocoProibido video must reach 1.3 x 0.17 = 0.221 or more; near-black pixels (luminance < 0.07) at most 5 % of a frame and no 1/8 x 1/8 block more than 60 % near-black. Run brightnessStat / brightnessLines (src/kit/qa.ts) on the drawn frames and LOOK at them."
+  },
+  "characters": {"skin": "#FFFFFF", "rule": "pure white cards, never tinted by the channel; only the rim (orange one side) and the fill (purple other side) change"}
+}

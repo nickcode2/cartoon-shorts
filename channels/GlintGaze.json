@@ -1,0 +1,24 @@
+{
+  "name": "GlintGaze",
+  "default": true,
+  "mood": "bright saturated day, warm sun, cream and teal (extracted from SHOPPING_CART: src/shop/sets.tsx, ShopLights, Grade.tsx)",
+  "palette": {
+    "dominant": ["#2FA7A0", "#BFEBDD", "#F6E8C8"],
+    "accent": ["#E8B23A", "#E0302A"],
+    "set": ["#E0302A", "#E8B23A", "#2FA7A0", "#F6E8C8", "#3FA7C9", "#8E6BBF", "#E8742A", "#9CCB4A", "#D8342A", "#F2C25A"],
+    "wood": ["#6B3F22", "#5A3A22"],
+    "skyTop": "#4FB4E0", "skyBottom": "#CDEFF5", "clear": "#CDEFF5",
+    "ink": "#231A28", "inkCards": "#120A14"
+  },
+  "light": {
+    "hemisphere": {"sky": "#FFF3D6", "ground": "#8A6A50", "intensity": 2.2},
+    "key": {"color": "#FFE2B0", "intensity": 1.7, "position": [-6, 9, 5]},
+    "rim": {"color": "#FF7A4D", "side": "one"},
+    "fill": null,
+    "lampGlow": [3.3, 3.0, 2.3]
+  },
+  "fog": null,
+  "haze": null,
+  "grade": {"bloom": 0.55, "bloomThreshold": 1.0, "saturation": 0.1, "contrast": 0.07, "brightness": 0.0, "vignetteOffset": 0.32, "vignetteDarkness": 0.42},
+  "characters": {"skin": "#FFFFFF", "rule": "pure white cards, never tinted by the channel"}
+}

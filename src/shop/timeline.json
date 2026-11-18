@@ -1,0 +1,222 @@
+{
+ "fps": 30,
+ "frames": 2055,
+ "videoSec": 68.5,
+ "narrationTrimStart": 1.85,
+ "note": "Times in seconds of the TRIMMED narration (original minus 1.85 s, first word at 0.40 s). Sentence starts measured with ffmpeg silencedetect (-35 dB / -30 dB) on narration.mp3 2026-11-17; word positions inside the last clauses are estimates (no speech recognizer installed).",
+ "cuts": [
+  {
+   "id": "1",
+   "f": 0
+  },
+  {
+   "id": "2",
+   "f": 201
+  },
+  {
+   "id": "3",
+   "f": 243
+  },
+  {
+   "id": "4",
+   "f": 294
+  },
+  {
+   "id": "5",
+   "f": 408
+  },
+  {
+   "id": "6",
+   "f": 645
+  },
+  {
+   "id": "7",
+   "f": 780
+  },
+  {
+   "id": "8",
+   "f": 843
+  },
+  {
+   "id": "9",
+   "f": 927
+  },
+  {
+   "id": "10",
+   "f": 996
+  },
+  {
+   "id": "11",
+   "f": 1116
+  },
+  {
+   "id": "12",
+   "f": 1182
+  },
+  {
+   "id": "13",
+   "f": 1302
+  },
+  {
+   "id": "14",
+   "f": 1371
+  },
+  {
+   "id": "15a",
+   "f": 1482
+  },
+  {
+   "id": "15b",
+   "f": 1650
+  },
+  {
+   "id": "16",
+   "f": 1737
+  },
+  {
+   "id": "17",
+   "f": 1780
+  },
+  {
+   "id": "18",
+   "f": 1860
+  }
+ ],
+ "sentences": [
+  {
+   "t": "A man pushes a shopping cart through a store.",
+   "a": 0.4,
+   "b": 2.51
+  },
+  {
+   "t": "He walks slowly, picks up a few things, and smiles at everyone.",
+   "a": 3.01,
+   "b": 6.37
+  },
+  {
+   "t": "Nobody follows him.",
+   "a": 6.81,
+   "b": 7.83
+  },
+  {
+   "t": "Not one person.",
+   "a": 8.18,
+   "b": 9.38
+  },
+  {
+   "t": "The store owner, Sylvan Goldman, invented that cart himself.",
+   "a": 9.88,
+   "b": 13.03
+  },
+  {
+   "t": "He noticed that his customers only bought what they could carry in a little hand basket.",
+   "a": 13.65,
+   "b": 17.24
+  },
+  {
+   "t": "When the basket got heavy, they stopped shopping and went straight to the register.",
+   "a": 17.68,
+   "b": 21.25
+  },
+  {
+   "t": "So he took a folding chair, put wheels on it, and added two baskets on top.",
+   "a": 21.71,
+   "b": 25.77
+  },
+  {
+   "t": "Problem solved.",
+   "a": 26.23,
+   "b": 27.16
+  },
+  {
+   "t": "Right?",
+   "a": 27.48,
+   "b": 27.77
+  },
+  {
+   "t": "Wait,",
+   "a": 28.28,
+   "b": 28.52
+  },
+  {
+   "t": "what?",
+   "a": 28.79,
+   "b": 29.13
+  },
+  {
+   "t": "Nobody wanted it.",
+   "a": 29.57,
+   "b": 30.62
+  },
+  {
+   "t": "Women said it looked like a baby stroller.",
+   "a": 31.08,
+   "b": 32.94
+  },
+  {
+   "t": "Men said carrying a basket was manly, and pushing a cart was not.",
+   "a": 33.38,
+   "b": 36.99
+  },
+  {
+   "t": "Customers walked right past it.",
+   "a": 37.46,
+   "b": 39.09
+  },
+  {
+   "t": "So he tried something weird.",
+   "a": 39.56,
+   "b": 41.12
+  },
+  {
+   "t": "He hired people to walk around the store, pushing carts, and pretending to shop.",
+   "a": 41.62,
+   "b": 45.39
+  },
+  {
+   "t": "He even paid some of them to stand at the door and show everyone how it works.",
+   "a": 45.85,
+   "b": 49.22
+  },
+  {
+   "t": "And it worked.",
+   "a": 49.59,
+   "b": 50.46
+  },
+  {
+   "t": "Customers saw other people using it,",
+   "a": 50.89,
+   "b": 52.96
+  },
+  {
+   "t": "and thought, Oh, this is normal.",
+   "a": 53.21,
+   "b": 56.27
+  },
+  {
+   "t": "Soon, everybody wanted one.",
+   "a": 56.65,
+   "b": 57.82
+  },
+  {
+   "t": "Sales exploded, and he got rich.",
+   "a": 58.03,
+   "b": 59.14
+  },
+  {
+   "t": "Today, you can't imagine a store without them.",
+   "a": 59.51,
+   "b": 61.62
+  },
+  {
+   "t": "So next time you push a cart, remember:",
+   "a": 62.12,
+   "b": 63.97
+  },
+  {
+   "t": "it only caught on because strangers were paid to make it look normal.",
+   "a": 64.41,
+   "b": 67.64
+  }
+ ]
+}
