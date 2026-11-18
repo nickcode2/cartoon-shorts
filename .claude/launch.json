@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["remotion", "studio", "src/index.ts", "--port=3000", "--no-open"],
       "port": 3000
+    },
+    {
+      "name": "faceswap-studio",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["remotion", "studio", "src/faceSwapEntry.ts", "--port=3011", "--no-open"],
+      "port": 3011
     }
   ]
 }
